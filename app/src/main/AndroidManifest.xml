@@ -13,8 +13,33 @@
         android:theme="@style/Theme.BottomNav"
         tools:targetApi="31">
         <activity
+            android:name=".Youtube"
+            android:exported="false" />
+        <activity
+            android:name=".Pinterest"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram"
+            android:exported="false" />
+        <activity
+            android:name=".Facebook"
+            android:exported="false" />
+        <activity
+            android:name=".Discord"
+            android:exported="false" />
+        <activity
+            android:name=".Telegram"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"/>
+        <activity
+            android:name=".Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".splash_screen"
+            android:exported="true"
+            android:theme="@style/SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
